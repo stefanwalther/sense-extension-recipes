@@ -1,0 +1,9 @@
+{
+	"name" : "qsSample-CustomProperties",
+	"description" : "Sample how to use the different types of custom properties.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "0.1",
+	"preview" : "bar",
+	"author": "Stefan Walther"
+}
