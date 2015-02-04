@@ -1,0 +1,9 @@
+{
+	"name" : "qsSample-CustomProperies",
+	"description" : "Qlik Sense Visualization Extension: How to add custom properties to your extension.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "0.1",
+	"preview" : "bar",
+	"author": "Stefan Walther"
+}
