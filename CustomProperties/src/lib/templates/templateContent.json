@@ -1,0 +1,53 @@
+[
+  {
+    "cat": "string",
+    "status": "green",
+    "label": "S1) Type string, default value",
+    "value": "layout.props.string.defaultString",
+    "description": ""
+  },
+  {
+    "cat": "string",
+    "status": "green",
+    "label": "S2) Type string, expression: empty",
+    "value": "layout.props.string.expressionEmpty",
+    "description": "The property will NOT be evaluated as an expression."
+  },
+  {
+    "cat": "string",
+    "status": "red",
+    "label": "S3) Type string, expression: always",
+    "value": "layout.props.string.expressionAlways",
+    "description": "The property will always be evaluated as an expression."
+  },
+  {
+    "cat": "string",
+    "status": "orange",
+    "label": "S4) Type string, expression: optional",
+    "value": "layout.props.string.expressionOptional",
+    "description": "The property will only be evaluated as an expression if a = sign is leading the expression.",
+    "remarks": [
+      "Does not work properly if you have defined a default value."
+    ]
+  },
+  {
+    "cat": "string",
+    "status": "green",
+    "label": "S5) Type string, maxLength: 10, expression: undefined",
+    "value": "layout.props.string.maxLength10",
+    "description": ""
+  },
+  {
+    "cat": "string",
+    "status": "red",
+    "label": "S6) Type string, maxLength: 10, expression: optional",
+    "value": "layout.props.string.maxLength10Optional",
+    "description": ""
+  },
+  {
+    "cat": "checkbox",
+    "status": "green",
+    "label": "chk1) Checkbox, default values",
+    "value": "layout.props.chkbox.default"
+  }
+]

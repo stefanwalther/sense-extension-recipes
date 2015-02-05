@@ -1,7 +1,114 @@
 // Main Styles
 
-.hello-world {
+//http://jsfiddle.net/stefanwalther/490ugrgj/8/
 
- color: @defaultColor;
- font-weight:bold;
+.resultItem {
+	margin-bottom: 10px;
+}
+
+.status {
+	width:20px;
+	height:20px;
+	border-radius:5px;
+	display:inline;
+	float:left;
+	border: 1px #ccc solid;
+	margin-right:10px;
+}
+.status:hover {
+	cursor: help;
+}
+
+.status.green {
+	background-color: #2ECC40;
+}
+.status.red {
+	background-color: #FF4136;
+
+}
+
+.status.orange {
+	background-color: #FFDC00;
+}
+
+.label {
+	display:block;
+	font-weight:bold;
+	color:#333;
+}
+
+.desc {
+	margin-left:30px;
+	color:#999;
+	font-style:italic;
+	margin-top:5px;
+}
+
+.result {
+	color:#990000;
+
+	margin-top:10px;
+	margin-left:30px;
+	margin-right:10px;
+	background-color:#efefef;
+	border-radius:5px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+.result:before {
+	content: "Result: ";
+	color: #333;
+	font-weight:bold;
+
+}
+
+.remarks {
+	margin-top:20px;
+	color: #333;
+	background-color:#FCE1B9;
+	padding: 10px 0px 10px 10px;
+	border-radius: 5px;
+	margin: 5px 0px 0px 0px;
+
+	ul {
+		margin-left:20px;
+	}
+}
+
+
+.sep {
+	border: 0;
+	height: 0;
+	margin-right:10px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+// ****************************************************************************************
+// Category Link
+// ****************************************************************************************
+.cat-link-container {
+	margin: 10px 0px 20px 0px;
+	.cat-link {
+		margin: 0px 2px 0px 2px;
+		color: #333;
+		background-color:#efefef;
+		border-radius: 4px;
+		display:inline;
+		padding: 5px;
+		cursor:pointer;
+	}
+	.cat-link:hover {
+		background-color: #ccc;
+	}
+
+	.selected {
+		background-color: #3c510c;
+		color:#fff;
+	}
 }

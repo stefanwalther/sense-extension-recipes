@@ -1,5 +1,8 @@
 /*global define*/
-define([], function () {
+define([
+	'./props-string',
+	'./props-checkbox'
+], function ( stringProps, checkProps ) {
   'use strict';
 
   // ****************************************************************************************
@@ -22,31 +25,31 @@ define([], function () {
     };
 
   // ****************************************************************************************
-  // Other Settings
-  // ****************************************************************************************
-
-    var testSetting = {
-        ref: "settings.test",
-        label: "Test Setting:",
-        type: "string",
-        expression: "optional",
-        show: true
-    };
-
-  // ****************************************************************************************
   // Property Panel Definition
   // ****************************************************************************************
 
     var propertyPanelDefinition = {
         uses: "settings",
         items: {
-            settings: {
+            stringProps: {
                 type: "items",
-                label: "Settings",
+                label: "String Properties",
                 items: {
-                    testSetting: testSetting
+                    defaultString: stringProps.defaultString,
+					expressionEmpty: stringProps.expressionEmpty,
+					expressionAlways: stringProps.expressionAlways,
+					expressionOptional: stringProps.expressionOptional,
+					maxLength10: stringProps.maxLength10,
+					maxLength10Optional: stringProps.maxLength10Optional
                 }
-            }
+            },
+			checkBoxProps: {
+				type: "items",
+				label: "Checkbox Properties",
+				items: {
+					checkboxDefault: checkProps.checkboxDefault
+				}
+			}
         }
     };
 
@@ -59,7 +62,6 @@ define([], function () {
             dimensions: dimensions,
             measures: measures,
             sorting: sorting,
-            //addons: addons,
             settings: propertyPanelDefinition
 
         }

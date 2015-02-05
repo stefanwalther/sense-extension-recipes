@@ -1,71 +1,49 @@
 /*global
-            define,
-            require,
-            window,
-            console,
-            _
-*/
-/*jslint    devel:true,
-            white: true
+ define,
+ require,
+ window,
+ console,
+ _
  */
-define([
-        'jquery',
-        'underscore',
-        './qssample-customproperties-properties',
-        './qssample-customproperties-initialproperties',
-        './lib/js/extensionUtils',
-        'text!./lib/css/style.css'
-],
-function ($, _, props, initProps, extensionUtils, cssContent) {
-    'use strict';
+/*jslint    devel:true,
+ white: true
+ */
+define( [
+		'jquery',
+		'underscore',
+		'./custom-properties',
+		'./initialproperties',
+		'./lib/js/extensionUtils',
+		'text!./lib/css/style.css',
+		'text!./lib/templates/template.ng.html',
+		'text!./lib/templates/templateContent.json'
+	],
+	function ( $, _, props, initProps, extensionUtils, cssContent, ngTemplate, templateContent ) {
+		'use strict';
 
-    extensionUtils.addStyleToHeader(cssContent);
+		extensionUtils.addStyleToHeader( cssContent );
 
-    return {
+		return {
 
-        definition: props,
-        initialProperties: initProps,
+			definition: props,
+			initialProperties: initProps,
+			snapshot: {canTakeSnapshot: true},
+			template: ngTemplate,
+			controller: ['$scope', function ( $scope ) {
+				$scope.results = JSON.parse(templateContent);
+				$scope.cats = _.groupBy( $scope.results, 'cat' );
 
-        snapshot: { canTakeSnapshot: true },
+				$scope.resultsFilter = 'checkbox';
 
-        resize : function( $element, layout ) {
-            //do nothing
-        },
+				$scope.setFilter = function ( item ) {
+					console.log( 'set filter', item );
+					$scope.resultsFilter = item;
+				};
 
-//        clearSelectedValues : function($element) {
-//
-//        },
+				console.log( '$scope.$parent.layout', $scope.$parent.layout );
+				console.log( 'results', $scope.results );
 
+			}]
+		};
 
-        // Angular Template
-        //template: '',
-        // (Angular Template)
-
-        // Angular Controller
-        controller: ['$scope', function ($scope) {
-
-        }],
-        // (Angular Controller)
-
-
-        // Paint Method
-        paint: function ( $element, layout ) {
-
-            console.groupCollapsed('Basic Objects');
-            console.info('$element:');
-            console.log($element);
-            console.info('layout:');
-            console.log(layout);
-            console.groupEnd();
-
-            $element.empty();
-            var $helloWorld = $(document.createElement('div'));
-            $helloWorld.addClass('hello-world');
-            $helloWorld.html('Hello World from the extension "qsSample-CustomProperties"');
-            $element.append($helloWorld);
-
-        }
-        // (Paint Method)
-    };
-
-});
+	} );

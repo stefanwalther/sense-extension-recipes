@@ -1,0 +1,28 @@
+<div qv-extension class="container">
+
+	<b>Filter:</b>
+	<div class="cat-link-container">
+		<div class="cat-link"
+			 ng-repeat="(item, item2) in cats"
+			 ng-bind="item"
+			 ng-class="{selected: resultsFilter === item}"
+			 qva-activate="setFilter( item );"></div>
+	</div>
+	<hr class="sep"/>
+
+	<div class="resultItem" ng-repeat="result in results | filter:{cat:resultsFilter}">
+		<div class="status" ng-class="result.status"></div>
+		<div class="label" ng-bind="result.label"></div>
+		<div class="desc" ng-bind="result.description"></div>
+		<div class="result">
+			<span ng-bind="{{result.value}}"></span>
+			<div class="remarks" ng-if="result.remarks">
+				<ul ng-repeat="remark in result.remarks">
+					<li ng-bind="remark"></li>
+				</ul>
+			</div>
+		</div>
+		<hr class="sep" />
+	</div>
+
+</div>
