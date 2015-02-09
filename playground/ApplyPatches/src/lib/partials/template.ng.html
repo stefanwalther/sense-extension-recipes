@@ -1,0 +1,17 @@
+<div qv-extension>
+
+	<b>Demo how to make changes to properties programmatically:</b><br/>
+
+
+	<b>Using getProperties/setProperties:</b><br/>
+	<input type="text" id="{{layout.qInfo.qId}}_text1" ng-model="layout.props.stringProp" />
+	<button qva-activate="useSetProperties()">Set Properties</button>
+	<button qva-activate="useApplyPatches()">Apply Patches</button>
+	<button qva-activate="useSaveChanges()">Save Changes</button>
+	<br/>
+	layout.props.stringProp: {{layout.props.stringProp}}
+	<hr/>
+
+	<b>Using applyPatches:</b><br/>
+
+</div>

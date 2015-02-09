@@ -1,0 +1,9 @@
+{
+	"name" : "qsSample-ApplyPatches",
+	"description" : "Sample how to use applyPatches",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "0.1",
+	"preview" : "bar",
+	"author": "Stefan Walther"
+}
