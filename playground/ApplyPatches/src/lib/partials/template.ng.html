@@ -6,7 +6,8 @@
 	<b>Using getProperties/setProperties:</b><br/>
 	<input type="text" id="{{layout.qInfo.qId}}_text1" ng-model="layout.props.stringProp" />
 	<button qva-activate="useSetProperties()">Set Properties</button>
-	<button qva-activate="useApplyPatches()">Apply Patches</button>
+	<button qva-activate="useApplyPatches( false )">Apply Patches, softPatches=false</button>
+	<button qva-activate="useApplyPatches( true )">Apply Patches, softPatches=true</button>
 	<button qva-activate="useSaveChanges()">Save Changes</button>
 	<br/>
 	layout.props.stringProp: {{layout.props.stringProp}}

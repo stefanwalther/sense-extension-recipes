@@ -45,7 +45,7 @@ define( [
 						} );
 				};
 
-				$scope.useApplyPatches = function () {
+				$scope.useApplyPatches = function ( softPatches ) {
 
 					var val = $( '#' + $scope.layout.qInfo.qId + '_text1' ).val();
 
@@ -55,7 +55,7 @@ define( [
 						"qValue": "\"" + val + "\""
 					}];
 
-					$scope.backendApi.applyPatches( patches, false )
+					$scope.backendApi.applyPatches( patches, softPatches )
 						.then( function ( reply ) {
 							console.log( 'applyPatches.promise', reply );
 							angular.noop();
