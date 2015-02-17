@@ -4,7 +4,9 @@ While working a lot with the concept of Extension in Qlik Sense I thought it hel
 
 # Samples
 
+* **HyperCubeOnTheFly**
+	* Create a HyperCube on the fly, based on dimensions and measures defined in the property panel.
+
+
 Read the README.md located in every sample for more information.
 
-* How to use several types of custom properties
-	* Source: /playground/qsSample-CustomProperties

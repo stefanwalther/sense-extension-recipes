@@ -1,9 +1,0 @@
-{
-	"name" : "Hypercube on the fly",
-	"description" : "Create a hypercube on the fly, defined by several properties.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "0.1",
-	"preview" : "hypercubeonthefly.png",
-	"author": "Stefan Walther"
-}

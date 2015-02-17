@@ -12,10 +12,10 @@ general:
   ExtensionNameSafe:    "Hypercubeonthefly"
 
   # Namespace
-  ExtensionNamespace:   "swr-"
+  ExtensionNamespace:   "qsSample-"
 
   # Description of the Extension as defined in the generator
-  ExtensionDescription: "Create a hypercube on the fly, defined by several properties."
+  ExtensionDescription: "Create a hypercube on the fly, based on dimensions and measures defined in the property panel."
 
   # Version of the extension, will be re-used in several areas,
   # e.g the generated .zip-file in the 'release' Grunt-task

@@ -3,34 +3,21 @@ define( [], function () {
 	'use strict';
 
 	// ****************************************************************************************
-	// Dimensions & Measures
-	// ****************************************************************************************
-	var dimensions = {
-		uses: "dimensions",
-		min: 0,
-		max: 1
-	};
-
-	var measures = {
-		uses: "measures",
-		min: 0,
-		max: 1
-	};
-
-	var sorting = {
-		uses: "sorting"
-	};
-
-	// ****************************************************************************************
-	// Other Settings
+	// Properties used for the hypercube
 	// ****************************************************************************************
 
-	var testSetting = {
-		ref: "settings.test",
-		label: "Test Setting:",
+	var dim1 = {
+		ref: "props.dimension1",
+		label: "Dimension",
 		type: "string",
-		expression: "optional",
-		show: true
+		expression: "optional"
+	};
+
+	var mea1 = {
+		ref: "props.measure1",
+		label: "Measure",
+		type: "string",
+		expression: "optional"
 	};
 
 	// ****************************************************************************************
@@ -43,9 +30,10 @@ define( [], function () {
 		items: {
 			settings: {
 				type: "items",
-				label: "Settings",
+				label: "Data",
 				items: {
-					testSetting: testSetting
+					dim1: dim1,
+					mea1: mea1
 				}
 			}
 		}
@@ -56,12 +44,7 @@ define( [], function () {
 		type: "items",
 		component: "accordion",
 		items: {
-			dimensions: dimensions,
-			measures: measures,
-			sorting: sorting,
-			//addons: addons,
 			appearance: appearancePanel
-
 		}
 	};
 
