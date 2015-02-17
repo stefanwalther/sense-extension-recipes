@@ -4,7 +4,7 @@ While working a lot with the concept of Extension in Qlik Sense I thought it hel
 
 # Samples
 
-* **[HyperCubeOnTheFly](tree/master/HyperCubeOnTheFly)**
+* **[HyperCubeOnTheFly](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/HyperCubeOnTheFly)**
 	* Create a HyperCube on the fly, based on dimensions and measures defined in the property panel.
 
 
