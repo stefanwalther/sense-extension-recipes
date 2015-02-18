@@ -1,0 +1,9 @@
+{
+	"name" : "RequireJS CSS Plugin",
+	"description" : "Example how to use the requireJS CSS plugin.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "0.1",
+	"preview" : "requirejscssplugin.png",
+	"author": "Stefan Walther"
+}
