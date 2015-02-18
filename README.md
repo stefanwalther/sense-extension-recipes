@@ -6,7 +6,7 @@ So this is more or less my playground to test concepts, to test how the Visualiz
 
 # Samples
 
-* **[Change Properties](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/ChangeProperties)
+* **[Change Properties](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/ChangeProperties)**
 	* Make changes to your custom properties programmatically.
 * **[HyperCubeOnTheFly](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/HyperCubeOnTheFly)**
 	* Create a HyperCube on the fly, based on dimensions and measures defined in the property panel.
