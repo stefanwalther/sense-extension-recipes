@@ -1,4 +1,11 @@
-**qsSample-ApplyPatches Qlik Sense Extension** is licensed under the MIT License:
+**Change Properties Qlik Sense Extension** is licensed under the MIT License:
+
+* [License](#license)
+* [External Libraries](#external libraries)
+
+---
+
+## License
 
 > The MIT License (MIT)
 > 
@@ -20,3 +27,19 @@
 > COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 > IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 > CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## External Libraries
+
+These external libraries are used within this solution. Many thanks to the authors!
+
+**Library 1**
+* Name:
+* License:
+* Url:
+* Author:
+
+**Library 2**
+* Name:
+* License:
+* Url:
+* Author:

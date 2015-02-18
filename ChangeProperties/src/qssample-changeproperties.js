@@ -33,7 +33,7 @@ define( [
 
 				/**
 				 * Usage of backendApi.setProperties.
-				 * Note that this is only possible if you first retrieve the properties using
+				 * @description Note that this is only possible if you first retrieve the properties using
 				 * backendApi.getProperties()
 				 */
 				$scope.useSetProperties = function () {
@@ -72,8 +72,8 @@ define( [
 				};
 
 				/**
-				 * Usage of backendApi.save(), only works if you first retrieve the properties using
-				 * backendApi.getProperties()
+				 * Usage of backendApi.save()
+				 * @description Only works if you first retrieve the properties using backendApi.getProperties()
 				 */
 				$scope.useSaveChanges = function () {
 

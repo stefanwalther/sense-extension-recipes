@@ -6,16 +6,16 @@ general:
   LocalExtensionPath:   "d:\\Documents\\Qlik\\Sense\\Extensions"
 
   # Name of the Extension as defined in the generator
-  ExtensionName:        "qsSample-ApplyPatches"
+  ExtensionName:        "Change Properties"
 
   # Name of the Extension, safe to be used for file-names
-  ExtensionNameSafe:    "qsSample-ApplyPatches"
+  ExtensionNameSafe:    "ChangeProperties"
 
   # Namespace
-  ExtensionNamespace:   "swr-"
+  ExtensionNamespace:   "qsSample-"
 
   # Description of the Extension as defined in the generator
-  ExtensionDescription: "Sample how to use applyPatches"
+  ExtensionDescription: "Sample how to change custom properties programmatically."
 
   # Version of the extension, will be re-used in several areas,
   # e.g the generated .zip-file in the 'release' Grunt-task

@@ -1,0 +1,26 @@
+<div qv-extension class="qv-object-qssample-changeproperties">
+
+	<p>
+		<b>Demo how to make changes to properties programmatically:</b><br/>
+		Change the value in the text box, then go back to edit mode and see if the property has changed.<br/><br/>
+	</p>
+
+	<p>
+		<input type="text" id="{{layout.qInfo.qId}}_text1" ng-model="layout.props.stringProp"/>
+	</p>
+
+	<p>
+		<b>Available Options:</b>
+	<ul>
+		<li><button class="btn" qva-activate="useSetProperties()">Set Properties</button></li>
+		<li><button class="btn" qva-activate="useApplyPatches( false )">Apply Patches, softPatches=false</button></li>
+		<li><button class="btn" qva-activate="useApplyPatches( true )">Apply Patches, softPatches=true</button></li>
+		<li><button class="btn" qva-activate="useSaveChanges()">Save Changes</button></li>
+	</ul>
+	</p>
+
+	<p>
+		<b>Current scope (layout.props.stringProp):</b><br/>
+		<code>{{layout.props.stringProp}}</code>
+	</p>
+</div>

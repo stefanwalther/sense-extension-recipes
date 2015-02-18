@@ -1,11 +1,13 @@
-
-Resources/
-Tests/
+# =========================
+# Project specific
+# =========================
+[Rr]esources/
+[Tt]ests/
 web.*.config
-dist/
-node_modules/
-grunt/node_modules/
-bower_components/
+/dist/
+/**/node_modules/
+/**/bower_components/
+/build/*_dev.zip
 
 
 # =========================
@@ -23,7 +25,6 @@ bower_components/
 [Dd]ebug/
 [Rr]elease/
 x64/
-build/
 [Bb]in/
 [Oo]bj/
 

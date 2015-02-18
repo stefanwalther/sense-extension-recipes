@@ -33,6 +33,7 @@ module.exports = function (grunt) {
 
         // Less support: true
         'less:dev',
+        //'less:allInPlace',
 
         // Cleanup
         'clean:devFiles',
@@ -75,7 +76,8 @@ module.exports = function (grunt) {
         'copy:copy_to_desktop',
 
         // Zip
-        'compress:release'
+        'compress:release',
+        'compress:release_latest'
 
 
     ]);

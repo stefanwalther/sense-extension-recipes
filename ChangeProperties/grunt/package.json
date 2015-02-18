@@ -1,7 +1,7 @@
 {
-    "name": "Grunt-Deployment-qsSample-ApplyPatches",
+    "name": "Grunt-Deployment-ChangeProperties",
     "version": "0.0.1",
-    "description": "Grunt tasks (dev + release) for the Qlik Sense extension qsSample-ApplyPatches",
+    "description": "Grunt tasks (dev + release) for the Qlik Sense extension Change Properties",
     "main": "gruntfile.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

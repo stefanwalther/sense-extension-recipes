@@ -1,0 +1,9 @@
+{
+	"name" : "Change Properties",
+	"description" : "Sample how to change custom properties programmatically.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "changeproperties.png",
+	"author": "Stefan Walther"
+}
