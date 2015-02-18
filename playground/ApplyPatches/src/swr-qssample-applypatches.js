@@ -31,6 +31,11 @@ define( [
 			template: ngTemplate,
 			controller: ['$scope', function ( $scope ) {
 
+				/**
+				 * Usage of backendApi.setProperties.
+				 * Note that this is only possible if you first retrieve the properties using
+				 * backendApi.getProperties()
+				 */
 				$scope.useSetProperties = function () {
 
 					var val = $( '#' + $scope.layout.qInfo.qId + '_text1' ).val();
@@ -39,12 +44,16 @@ define( [
 							reply.props.stringProp = val;
 							$scope.backendApi.setProperties( reply )
 								.then( function ( reply ) {
-									console.log( 'useSetProperties.setProperties -> promise', reply );
+									//console.log( 'useSetProperties.setProperties -> promise', reply );
 									angular.noop();
-								});
+								} );
 						} );
 				};
 
+				/**
+				 * Usage of applyPatches
+				 * @param softPatches
+				 */
 				$scope.useApplyPatches = function ( softPatches ) {
 
 					var val = $( '#' + $scope.layout.qInfo.qId + '_text1' ).val();
@@ -57,23 +66,27 @@ define( [
 
 					$scope.backendApi.applyPatches( patches, softPatches )
 						.then( function ( reply ) {
-							console.log( 'applyPatches.promise', reply );
+							//console.log( 'applyPatches.promise', reply );
 							angular.noop();
 						} );
 				};
 
+				/**
+				 * Usage of backendApi.save(), only works if you first retrieve the properties using
+				 * backendApi.getProperties()
+				 */
 				$scope.useSaveChanges = function () {
 
 					var val = $( '#' + $scope.layout.qInfo.qId + '_text1' ).val();
 					$scope.backendApi.getProperties()
 						.then( function ( reply ) {
 
-							console.log( 'useSaveChanges.getProperties->reply', reply );
+							//console.log( 'useSaveChanges.getProperties->reply', reply );
 							reply.props.stringProp = val;
 
 							$scope.backendApi.save()
 								.then( function ( saveReply ) {
-									console.log( 'useSaveChanges.save->reply', saveReply );
+									//console.log( 'useSaveChanges.save->reply', saveReply );
 									angular.noop();
 								} )
 						} )
