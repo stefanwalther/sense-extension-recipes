@@ -2,11 +2,7 @@
 Sample how to change custom properties programmatically.
 
 
-## Author
-
-**Stefan Walther**
-* http://www.yourwebsite.com
-* http://github.com/yourname
+Back to the [overview of all examples](https://github.com/stefanwalther/qsExtensionPlayground).
 
 
 ## Change Log
@@ -14,6 +10,6 @@ Sample how to change custom properties programmatically.
 See [CHANGELOG.md](CHANGELOG.md)
 
 ## License & Copyright
-The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
+This sample is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
 
 See [Additional license information for this solution.](LICENSE.md)

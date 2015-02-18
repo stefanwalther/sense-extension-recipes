@@ -8,12 +8,11 @@ Example how to create and bind to a HyperCube which is build on some definitions
 Based on version 1.1 of Qlik Sense (method `destroySessionObject` was introduced in Qlik Sense version 1.1)
 
 
+## Other Examples
 
-## Author
+Back to the [overview of all examples](https://github.com/stefanwalther/qsExtensionPlayground).
 
-**Stefan Walther**
-* http://www.yourwebsite.com
-* http://github.com/yourname
+
 
 
 ## Change Log
@@ -21,6 +20,6 @@ Based on version 1.1 of Qlik Sense (method `destroySessionObject` was introduced
 See [CHANGELOG.md](CHANGELOG.md)
 
 ## License & Copyright
-The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
+This sample is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
 
 See [Additional license information for this solution.](LICENSE.md)
