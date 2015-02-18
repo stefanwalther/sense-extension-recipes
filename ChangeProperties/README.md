@@ -2,6 +2,8 @@
 Sample how to change custom properties programmatically.
 
 
+## Other Examples
+
 Back to the [overview of all examples](https://github.com/stefanwalther/qsExtensionPlayground).
 
 
