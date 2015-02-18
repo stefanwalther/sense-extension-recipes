@@ -1,7 +1,16 @@
 /* Styles for RequireJS CSS Plugin */
 
 /* Recommended pattern for styling your objects */
-.qv-object-qssample-requirejscssplugin .hello-world {
-  color:#333;
-  font-weight:bold;
+.qsSample_requireJS_CSS {
+
+}
+
+.qsSample_requireJS_CSS .description {
+
+}
+
+.qsSample_requireJS_CSS .status {
+	color: #008000;
+	font-weight: bold;
+	font-size: x-large;
 }

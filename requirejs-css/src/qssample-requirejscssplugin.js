@@ -1,64 +1,40 @@
 /*global
-            define,
-            require,
-            window,
-            console,
-            _
-*/
-/*jslint    devel:true,
-            white: true
+ define,
+ require,
+ window,
+ console,
+ _
  */
-define([
-        'jquery',
-        'underscore',
-        './properties',
-        './initialproperties',
-        './lib/js/extensionUtils',
-        'text!./lib/css/style.css'
-],
-function ($, _, props, initProps, extensionUtils, cssContent) {
-    'use strict';
+/*jslint    devel:true,
+ white: true
+ */
+define( [
+		'jquery',
+		'underscore',
+		'./properties',
 
-    extensionUtils.addStyleToHeader(cssContent);
+		// no return value
+		'css!./lib/css/style.css'
+	],
+	function ( $, _, props, initProps ) {
+		'use strict';
 
-    return {
+		return {
 
-        definition: props,
-        initialProperties: initProps,
-        snapshot: { canTakeSnapshot: true },
-        resize : function( $element, layout ) {
-            //do nothing
-        },
-//        clearSelectedValues : function($element) {
-//
-//        },
+			definition: props,
+			initialProperties: initProps,
+			snapshot: {canTakeSnapshot: true},
+			paint: function ( $element, layout ) {
 
+				$element.empty();
+				var $output = $( document.createElement( 'div' ) );
+				$output.addClass( 'qsSample_requireJS_CSS' );
+				var html = '<p class="description">If you see a green message below ("Yes, CSS plugin is working"), then the requireJS plugin is working properly.<br/>Should work in the following versions: Qlik Sense 1.0, 1.1, 1.2 (Desktop + Server).<br/></p>';
+				html += '<br/><br/><p class="status">Yes, CSS plugin is working.</p>';
+				$output.html( html );
+				$element.append( $output );
 
-        // Angular Support (uncomment to use)
-        //template: '',
-        // Angular Controller
-        //controller: ['$scope', function ($scope) {
-		//
-        //}],
-        // (Angular Controller)
+			}
+		};
 
-
-        paint: function ( $element, layout ) {
-
-            console.groupCollapsed('Basic Objects');
-            console.info('$element:');
-            console.log($element);
-            console.info('layout:');
-            console.log(layout);
-            console.groupEnd();
-
-            $element.empty();
-            var $helloWorld = $(document.createElement('div'));
-            $helloWorld.addClass('hello-world');
-            $helloWorld.html('Hello World from the extension "RequireJS CSS Plugin"');
-            $element.append($helloWorld);
-
-        }
-    };
-
-});
+	} );
