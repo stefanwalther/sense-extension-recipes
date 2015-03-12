@@ -1,0 +1,9 @@
+{
+  "name": "qsSample PreviewImg",
+  "description": "Test the preview images in Visualization Extensinos.",
+  "icon": "",
+  "type": "visualization",
+  "version": "@@version",
+  "preview": "previewimage_1.png",
+  "author": "Stefan Walther"
+}

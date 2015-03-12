@@ -1,0 +1,7 @@
+/* Styles for qsSample PreviewImg */
+
+/* Recommended pattern for styling your objects */
+.qv-object-qssamplepreviewimg .hello-world {
+  color:#333;
+  font-weight:bold;
+}
