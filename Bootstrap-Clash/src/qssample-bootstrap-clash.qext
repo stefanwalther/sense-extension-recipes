@@ -1,0 +1,9 @@
+{
+	"name" : "Bootstrap-Clash",
+	"description" : "Example how Qlik Sense' style crashes if you \"just\" include the Boostrap CSS.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "bootstrap-clash.png",
+	"author": "Stefan Walther"
+}

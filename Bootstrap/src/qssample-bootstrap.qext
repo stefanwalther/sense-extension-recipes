@@ -1,0 +1,9 @@
+{
+  "name": "Bootstrap",
+  "description": "Using Bootstrap CSS in Qlik Sense visualization extensions.",
+  "icon": "extension",
+  "type": "visualization",
+  "version": "@@version",
+  "preview": "bootstrap.png",
+  "author": "Stefan Walther"
+}
