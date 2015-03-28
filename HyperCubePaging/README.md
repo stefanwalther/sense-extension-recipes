@@ -7,7 +7,7 @@ This example demonstrates how you can fetch more data using a hypercube and its 
 
 ## Sample Load-Script to Generate Some Data
 
-´´´bash
+```
 Data:
 Load
 	round(rand()*1000) as [Measure 1],
@@ -16,5 +16,4 @@ Load
 Load
 	RecNo() as id
 AutoGenerate 10000;
-
-´´´
+```
