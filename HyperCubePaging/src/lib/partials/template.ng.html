@@ -1,0 +1,24 @@
+<div qv-extension class="qv-object-qssample-hypercubepaging">
+	<div style="height:160px;">
+		<b>Total Rows: </b>{{layout.qHyperCube.qSize.qcy.toLocaleString()}}<br/>
+		<b>Total Columns: </b>{{layout.qHyperCube.qSize.qcx.toLocaleString()}}<br/>
+		<b>Total Cells: </b>{{ (layout.qHyperCube.qSize.qcy * layout.qHyperCube.qSize.qcx).toLocaleString()}}
+		<hr/>
+		<b>Feteched Rows: </b>{{fetchedRows()}}<br/>
+		<b>Fetched Cells: </b>{{fetchedCells()}}<br/><br/>
+		<button qva-activate="getMore()">... fetch more data ...</button>
+	</div>
+	<div class="tableContainer">
+		<table class="qsSample">
+			<thead>
+			<th ng-repeat="d in layout.qHyperCube.qDimensionInfo" ng-bind="d.qFallbackTitle"></th>
+			<th ng-repeat="m in layout.qHyperCube.qMeasureInfo" ng-bind="m.qFallbackTitle"></th>
+			</thead>
+			<tbody ng-repeat-start="datapage in layout.qHyperCube.qDataPages" ng-repeat-end>
+			<tr ng-repeat="row in datapage.qMatrix">
+				<td ng-repeat="c in row" ng-bind="c.qText"></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

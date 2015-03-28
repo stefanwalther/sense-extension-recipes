@@ -1,0 +1,9 @@
+{
+	"name" : "HyperCube Paging",
+	"description" : "Example how to get more than 10.000 data-points using a hypercube and data-paging.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "hypercubepaging.png",
+	"author": "Stefan Walther"
+}
