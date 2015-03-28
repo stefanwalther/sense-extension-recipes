@@ -10,6 +10,8 @@ So this is more or less my playground to test concepts, to test how the Visualiz
 	* Make changes to your custom properties programmatically.
 * **[HyperCubeOnTheFly](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/HyperCubeOnTheFly)**
 	* Create a HyperCube on the fly, based on dimensions and measures defined in the property panel.
+* **[HyperCubePaging](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/HyperCubePaging)**
+	* Example how to get more than 10.000 data-points using a hypercube and data-paging.
 * **[RequireJS CSS Plugin](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/requirejs-css)**
 	* Use requireJS' CSS Plugin to load external CSS files.
 * **[Bootstrap-Clash](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap-Clash)**
@@ -22,7 +24,7 @@ Read the README.md located in every sample for more information.
 ## Author
 
 **Stefan Walther**
-* [qlikblog.at](http://www.qlikblog.at)
+* [qliksite.io](http://qliksite.io)
 * [twitter/waltherstefan](http://twitter.com/waltherstefan)
 * [github.com/stefanwalther](http://github.com/stefanwalther)
 
