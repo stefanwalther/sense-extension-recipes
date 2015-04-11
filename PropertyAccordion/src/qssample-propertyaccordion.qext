@@ -1,0 +1,9 @@
+{
+	"name" : "Property Accordion",
+	"description" : "Short sample how to use custom properties in the property accordion.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "propertyaccordion.png",
+	"author": "Stefan Walther"
+}
