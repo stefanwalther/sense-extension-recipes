@@ -1,0 +1,1 @@
+define(["jquery","./properties","./initialproperties","text!./lib/css/style.css","text!./template.ng.html","./directives/swr-simpletable/swr-simpletable"],function(a,b,c,d,e){return a("<style>").html(d).appendTo("head"),{definition:b,initialProperties:c,template:e,controller:["$scope",function(a){}]}});
