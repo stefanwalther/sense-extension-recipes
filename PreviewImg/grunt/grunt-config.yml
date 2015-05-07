@@ -12,7 +12,7 @@ general:
   ExtensionNameSafe:    "PreviewImg"
 
   # Namespace
-  ExtensionNamespace:   "qssample"
+  ExtensionNamespace:   "qsSample"
 
   # Description of the Extension as defined in the generator
   ExtensionDescription: "Test the preview images in Visualization Extensions."

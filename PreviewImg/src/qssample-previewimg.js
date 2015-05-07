@@ -9,16 +9,7 @@ define( [
 
 		return {
 
-			snapshot: {canTakeSnapshot: true},
-			paint: function ( $element /*, layout*/ ) {
-
-				$element.empty();
-				var $helloWorld = $( document.createElement( 'div' ) );
-				$helloWorld.addClass( 'hello-world' );
-				$helloWorld.html( 'Just a simple extension to test the different sizes of preview images."' );
-				$element.append( $helloWorld );
-
-			}
+			snapshot: {canTakeSnapshot: false}
 		};
 
 	} );

@@ -27,7 +27,7 @@ module.exports = function ( grunt ) {
 			expand: true,
 			cwd: '../dist_dev/',
 			src: '**',
-			dest: '<%= projectconfig.general.LocalExtensionPath%>/<%= projectconfig.general.ExtensionNamespace%><%= projectconfig.general.ExtensionNameSafe%>/'
+			dest: '<%= projectconfig.general.LocalExtensionPath%>/<%= projectconfig.general.ExtensionNamespace%>-<%= projectconfig.general.ExtensionNameSafe%>/'
 		},
 		copy_to_desktop_release: {
 			expand: true,
