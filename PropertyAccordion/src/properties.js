@@ -85,15 +85,13 @@ define( [], function () {
 				}
 			},
 			myAccordionPanel: {
-				type: "items",
-				component: "expandable-items",
-				//show: function ( data ) {
-				//	return true;
-				//},
+				component: 'expandable-items',
+				show: function ( data ) {
+					return false;
+				},
 				label: "My Accordion Panel",
 				items: {
 					section1: {
-						type: "items",
 						label: "Section 1",
 						items: {
 							section1_item1: section1_item1,
@@ -101,7 +99,6 @@ define( [], function () {
 						}
 					},
 					section2: {
-						type: "items",
 						label: "Section 1",
 						items: {
 							section2_item1: section2_item1,
