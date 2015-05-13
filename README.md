@@ -19,7 +19,7 @@ So this is more or less my playground to test concepts, to test how the Visualiz
 * **[HyperCubePaging](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/HyperCubePaging)**
 	* Example how to get more than 10.000 data-points using a hypercube and data-paging.
 * **[PropertyAccordion](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/PropertyAccordion)**
-	* Example how to use custom properties in the property accordion.
+	* Example how to create custom sections, headers and custom properties in the property accordion.
 * **[RequireJS CSS Plugin](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/requirejs-css)**
 	* Use requireJS' CSS Plugin to load external CSS files.
 
