@@ -1,3 +1,3 @@
 # Property Accordion
-> Example how to use custom properties in the property accordion.
+> Example how to create custom sections, headers and custom properties in the property accordion.
 

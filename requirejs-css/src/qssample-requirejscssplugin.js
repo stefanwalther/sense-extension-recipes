@@ -1,19 +1,11 @@
-/*global
- define,
- require,
- window,
- console,
- _
- */
-/*jslint    devel:true,
- white: true
- */
 define( [
 		'jquery',
 		'underscore',
 		'./properties',
 
 		// no return value
+
+		// Use the requireJS css plugin
 		'css!./lib/css/style.css'
 	],
 	function ( $, _, props, initProps ) {

@@ -58,7 +58,10 @@ define( [], function () {
 		ref: "props.section2.item2",
 		label: "Section 2 / Item 2",
 		type: "string",
-		expression: "optional"
+		expression: "optional",
+		show: function ( data ) {
+
+		}
 	};
 
 	// ****************************************************************************************
@@ -66,7 +69,7 @@ define( [], function () {
 	// ****************************************************************************************
 
 	return {
-		type: "items",
+		//type: "items", //<== working also without type: "items"
 		component: "accordion",
 		items: {
 			dimensions: dimensions,
@@ -85,11 +88,8 @@ define( [], function () {
 				}
 			},
 			myAccordionPanel: {
-				type: "items",
+				//type: "items", //<== not necessary to define "items"
 				component: "expandable-items",
-				//show: function ( data ) {
-				//	return true;
-				//},
 				label: "My Accordion Panel",
 				items: {
 					section1: {
