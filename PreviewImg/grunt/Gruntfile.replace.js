@@ -26,7 +26,7 @@ module.exports = function ( grunt ) {
 				{
 					expand: true,
 					flatten: false,
-					src: ['../dist_dev/**/*.*', '!../dist/**/*.{min.js,png,gif,jpg,ico,psd,eot,svg,ttf,woff}'],
+					src: ['../dist_dev/**/*.*', '!../dist_dev/**/*.{min.js,png,gif,jpg,ico,psd,eot,svg,ttf,woff}'],
 					dest: '../dist_dev/'
 				}
 			]

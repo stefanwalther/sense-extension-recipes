@@ -1,15 +1,10 @@
 # qsSample PreviewImg
-> Test the preview images in Visualization Extensions.
+> Test different sizes of preview images in visualization extensions.
 
 
 ## Author
 
 **Stefan Walther**
-
-
-## Change Log
-
-See [CHANGELOG.md](CHANGELOG.md)
 
 ## License & Copyright
 The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
