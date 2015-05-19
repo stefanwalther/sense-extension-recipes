@@ -35,26 +35,26 @@ define( [], function () {
 	// New Accordion Panel
 	// ****************************************************************************************
 
-	var section1_item1 = {
+	var header1_item1 = {
 		ref: "props.section1.item1",
 		label: "Section 1 / Item 1",
 		type: "string",
 		expression: "optional"
 	};
-	var section1_item2 = {
+	var header1_item2 = {
 		ref: "props.section1.item2",
 		label: "Section 1 / Item 2",
 		type: "string",
 		expression: "optional"
 	};
 
-	var section2_item1 = {
+	var header2_item2 = {
 		ref: "props.section2.item1",
 		label: "Section 2 / Item 1",
 		type: "string",
 		expression: "optional"
 	};
-	var section2_item2 = {
+	var header2_item2 = {
 		ref: "props.section2.item2",
 		label: "Section 2 / Item 2",
 		type: "string",
@@ -87,28 +87,27 @@ define( [], function () {
 					}
 				}
 			},
-			myAccordionPanel: {
+			myCustomSection: {
 				//type: "items", //<== not necessary to define "items"
 				component: "expandable-items",
-				label: "My Accordion Panel",
+				label: "My Accordion Section",
 				items: {
-					section1: {
+					header1: {
 						type: "items",
-						label: "Section 1",
+						label: "Header 1",
 						items: {
-							section1_item1: section1_item1,
-							section1_item2: section1_item2
+							header1_item1: header1_item1,
+							header1_item2: header1_item2
 						}
 					},
-					section2: {
+					header2: {
 						type: "items",
-						label: "Section 1",
+						label: "Header 2",
 						items: {
-							section2_item1: section2_item1,
-							section2_item2: section2_item2
+							header2_item1: header2_item2,
+							header2_item2: header2_item2
 						}
 					}
-
 				}
 			}
 		}
