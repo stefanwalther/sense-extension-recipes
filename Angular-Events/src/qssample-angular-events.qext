@@ -1,0 +1,9 @@
+{
+	"name" : "Angular-Events",
+	"description" : "Events in AngularJS based visualization extensions.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "angular-events.png",
+	"author": "Stefan Walther"
+}
