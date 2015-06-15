@@ -23,10 +23,13 @@ define( [
 
 				console.log( '$scope', $scope.$parent.component.model);
 
-				$scope.$on('$parent.component.model.Validating', function () {
+				$scope.$on('component.model.Validated', function () {
 					console.log('Validating');
-				})
+				});
 
+				$scope.$watch('$parent.component.model.Validated', function ( newVal ) {
+					console.log('newVal.Validate', newVal);
+				});
 			}]
 		};
 
