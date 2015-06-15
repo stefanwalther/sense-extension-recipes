@@ -21,3 +21,34 @@ dl.qsSample {
 	}
 
 }
+
+.swr-tabs {
+
+	height: 30px;
+	ul {
+		list-style: none;
+		li {
+
+			font-weight: bold;
+			font-size: 16px;
+			cursor: pointer;
+			float: left;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 3px;
+			margin-right: 5px;
+
+			&:hover {
+				border-bottom-style: solid;
+				border-bottom-width: 4px;
+				border-bottom-color: #d0d0d0;
+			}
+			&.active {
+				border-bottom-style: solid;
+				border-bottom-width: 4px;
+				border-bottom-color: orange !important;
+
+			}
+		}
+	}
+}
