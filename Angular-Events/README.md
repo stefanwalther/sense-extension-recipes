@@ -2,8 +2,14 @@
 > Events in AngularJS based visualization extensions.
 
 ## Purpose and Description
+Example how to use events in AngularJS based visualization extensions.
 
-## Screenshots
+Have a look at the source file to see usage of the following events:
+
+* **Validated** - The data has been recalculated and new valid data is available.
+* **Invalidated** - The data has been invalidated, for example by a user selection. Do not use the data.
+* **Aborted** - Calculation has been aborted.
+* **Cancelled** - Calculation has been cancelled.
 
 ## Installation
 
@@ -13,23 +19,13 @@
 3. Qlik Sense Server
 	* See instructions [how to import an extension on Qlik Sense Server](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingExtensions/HowTos/deploy-extensions.htm)
 
-## Configuration
+## Usage
 
-## Contributing
-Contributing to this project is welcome. The process to do so is outlined below:
-
-1. Create a fork of the project
-2. Work on whatever bug or feature you wish
-3. Create a pull request (PR)
-
-I cannot guarantee that I will merge all PRs but I will evaluate them all.
+* Open your browser's web developer tools (e.g. Chrom Web Dev Tools) and watch in the console output when events are triggered.
 
 ## Author
 
 **Stefan Walther**
-* http://www.yourwebsite.com
-* http://github.com/yourname
-
 
 ## Change Log
 

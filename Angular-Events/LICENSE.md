@@ -1,13 +1,5 @@
 **Angular-Events Qlik Sense Extension** is licensed under the "MIT" license:
 
-* [License](#license)
-* [External Libraries](#external libraries)
-
----
-
-## License
-
-> 
 > The MIT License (MIT)
 > 
 > Copyright (c) 2015 Stefan Walther
@@ -29,28 +21,3 @@
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
-> 
-
-## External Libraries
-
-These external libraries are used within this solution. Many thanks to the authors!
-
-**Library 1**
-* Name:
-* License:
-* Url:
-* Author:
-
-**Library 2**
-* Name:
-* License:
-* Url:
-* Author:
-
----
-
-
-
-
-
-
