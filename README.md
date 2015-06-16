@@ -6,8 +6,10 @@ So this is more or less my playground to test concepts, to test how the Visualiz
 
 # Samples
 
-* **[Bootstrap-Clash](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Angular-BasicExample)**
+* **[Angular-BasicExample](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Angular-BasicExample)**
 	* Simple example how to use AngularJS (templates & directives) in Qlik Sense Visualization Extensions.
+* **[Angular-Events](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Angular-Events)**
+	* Sample how to consume events in AngularJS based visualization extensions.
 * **[Bootstrap-Clash](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap-Clash)**
 	* Sample how Bootstrap can clash with the style of Qlik Sense
 * **[Bootstrap](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Bootstrap)**
