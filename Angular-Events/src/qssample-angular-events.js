@@ -21,15 +21,14 @@ define( [
 			template: ngTemplate,
 			controller: ['$scope', '$element', function ( $scope, $element ) {
 
-				console.log( '$scope', $scope.$parent.component.model);
+				console.log( 'model', $scope.$parent.component.model);
 
-				$scope.$on('component.model.Validated', function () {
-					console.log('Validating');
+				$scope.$parent.component.model.Validated.bind( function (  ) {
+					console.log('Validated');
 				});
 
-				$scope.$watch('$parent.component.model.Validated', function ( newVal ) {
-					console.log('newVal.Validate', newVal);
-				});
+
+
 			}]
 		};
 
