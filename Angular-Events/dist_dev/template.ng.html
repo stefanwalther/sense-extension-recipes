@@ -1,3 +1,9 @@
 <div qv-extension>
-	Have a look at the source code resp. the console output to see when events are triggered.
+	<div class="events">
+		<b>Events:</b><br/>
+		<ul>
+			<li ng-repeat="evt in events | orderBy: '-ts'">{{evt.ts}}: <b>{{evt.event}}</b></li>
+		</ul>
+	</div>
+	You might also want to have a look at the source code resp. console output to see how events are triggered.
 </div>

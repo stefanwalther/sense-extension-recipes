@@ -1,7 +1,12 @@
-/* Styles for Angular-Events */
+.qv-object-qssample-angular-events .qv-object-content {
+	overflow: auto;
+}
+.qv-object-qssample-angular-events .qv-object-content .events {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
-/* Recommended pattern for styling your objects */
-.qv-object-qssample-angular-events .hello-world {
-  color:#333;
-  font-weight:bold;
+.qv-object-qssample-angular-events .qv-object-content ul {
+	list-style: disc;
+	padding-left: 30px;
 }
