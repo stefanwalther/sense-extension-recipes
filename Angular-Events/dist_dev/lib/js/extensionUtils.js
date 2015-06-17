@@ -1,7 +1,8 @@
 define( [
 	'jquery',
-	'underscore'
-], function ( $, _ ) {
+	'underscore',
+	'moment'
+], function ( $, _, moment ) {
 	'use strict';
 
 	// Taken from http://www.briangrinstead.com/blog/console-log-helper-function
@@ -77,6 +78,11 @@ define( [
 					$( 'head' ).append( $styleLink );
 				}
 			}
+		},
+
+		timeStamp: function () {
+			var now = moment();
+			return now.format( 'HH:mm:ss.SSS' );
 		}
 
 	};

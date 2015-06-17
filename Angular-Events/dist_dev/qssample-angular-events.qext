@@ -3,7 +3,7 @@
 	"description" : "Events in AngularJS based visualization extensions.",
 	"icon" : "extension",
 	"type" : "visualization",
-	"version": "0.1.�",
+	"version": "0.2.0",
 	"preview" : "angular-events.png",
 	"author": "Stefan Walther"
 }

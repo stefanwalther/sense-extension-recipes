@@ -10,6 +10,13 @@ Have a look at the source file to see usage of the following events:
 * **Invalidated** - The data has been invalidated, for example by a user selection. Do not use the data.
 * **Aborted** - Calculation has been aborted.
 * **Cancelled** - Calculation has been cancelled.
+* **Closed** - Connection to the Qlik engine has been closed for this object.
+
+[Official documentation](http://betahelp.qliktech.com/sense/2.0/en-US/developer/Subsystems/Mashups/Content/Howtos/mashups-access-visualization-data.htm)
+
+## Screenshot
+
+![](docs/images/AngularEvents_Screenshot.png)
 
 ## Installation
 

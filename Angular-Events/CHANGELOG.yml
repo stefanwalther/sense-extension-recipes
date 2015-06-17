@@ -1,3 +1,8 @@
+v0.2.0:
+  date: "2015-06-16"
+  enhancements:
+    - Display triggered events in the output
+    - Added screenshot to README
 v0.1.0:
   date: "2015-06-15"
   new:
