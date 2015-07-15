@@ -1,0 +1,24 @@
+{
+  "name": "sense-extension-recipes",
+  "version": "0.1.0",
+  "description": "Recipes on working with Qlik Sense Visualization Extensions.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/sense-extension-recipes.git"
+  },
+  "keywords": [
+    "qliksense",
+    "qlik-sense",
+    "extensions",
+    "visualization-extensions"
+  ],
+  "author": "Stefan Walther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/sense-extension-recipes/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/sense-extension-recipes"
+}
