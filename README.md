@@ -4,7 +4,7 @@ While working a lot with the concept of Extension in Qlik Sense I thought it hel
 
 So this is more or less my playground to test concepts, to test how the Visualization Extension API for Qlik Sense is documented, etc.
 
-# Samples
+# Recipes
 
 * **[Angular-BasicExample](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/Angular-BasicExample)**
 	* Simple example how to use AngularJS (templates & directives) in Qlik Sense Visualization Extensions.
