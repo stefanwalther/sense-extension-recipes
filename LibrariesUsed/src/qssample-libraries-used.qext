@@ -1,0 +1,9 @@
+{
+	"name" : "Libraries-Used",
+	"description" : "Libraries used in Qlik Sense and their versions.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "libraries-used.png",
+	"author": "Stefan Walther"
+}
