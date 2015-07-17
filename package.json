@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/stefanwalther/sense-extension-recipes/issues"
   },
-  "homepage": "https://github.com/stefanwalther/sense-extension-recipes"
+  "homepage": "https://github.com/stefanwalther/sense-extension-recipes",
+  "devDependencies": {
+    "verb": "git://github.com/verbose/verb"
+  }
 }
