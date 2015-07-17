@@ -71,6 +71,7 @@ Read the README.md located in every sample for more information.
 ## License
 
 Copyright © 2015 Stefan Walther
+
 Released under the MIT license.
 
 ***
