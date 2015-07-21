@@ -7,9 +7,14 @@
   },
   "author": "Stefan Walther",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/sense-extension-recipes.git"
+  },
   "devDependencies": {
-    "sense-go": "^0.1.1",
     "gulp": "git://github.com/gulpjs/gulp#4.0",
-    "js-yaml": "^3.3.1"
+    "js-yaml": "^3.3.1",
+    "sense-go": "^0.1.1",
+    "verb": "git://github.com/verbose/verb"
   }
 }

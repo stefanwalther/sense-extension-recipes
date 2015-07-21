@@ -1,16 +1,14 @@
 define([
         'jquery',
+		'qlik',
         './properties',
         './initialproperties',
         './lib/js/extensionUtils',
         'text!./lib/css/style.css'
 ],
-function ($, props, initProps, extensionUtils, cssContent) {
+function ($, qlik, props, initProps, extensionUtils, cssContent) {
     'use strict';
-
     extensionUtils.addStyleToHeader(cssContent);
-
-    console.log('Initializing - remove me');
 
     return {
 
@@ -19,30 +17,43 @@ function ($, props, initProps, extensionUtils, cssContent) {
         snapshot: { canTakeSnapshot: false },
         paint: function ( $element, layout ) {
 
-			var hc = layout.qHyperCube;
-			//console.log( 'Data returned: ', hc );
+			var qTable = qlik.table(this);
 
 			// Default rendering with HTML injection
 			$element.empty();
+
+			var $exportButton = $( document.createElement('button'));
+			$exportButton.html('Export');
+			$exportButton.bind('click', function (  ) {
+
+				var exportConfig = {
+					download: true,
+					filename: 'my-export.xlsx',
+					format: 'OOXML'
+				};
+
+				qTable.exportData( exportConfig, function ( reply ) {
+					console.log('Created export file: ', reply);
+				});
+			});
+			$element.append($exportButton);
+
 			var table = '<table border="1">';
 
 			table += '<thead>';
 			table += '<tr>';
-			for (var i = 0; i < hc.qDimensionInfo.length; i++) {
-				table += '<th>' + hc.qDimensionInfo[i].qFallbackTitle + '</th>';
-			}
-			for (var i = 0; i < hc.qMeasureInfo.length; i++) {
-				table += '<th>' + hc.qMeasureInfo[i].qFallbackTitle + '</th>';
+			for (var i = 0; i < qTable.headers.length; i++) {
+				table += '<th>' + qTable.headers[i].qFallbackTitle + '</th>';
 			}
 			table += '</tr>';
 			table += '</thead>';
 
 			table += '<tbody>';
-			for (var r = 0; r < hc.qDataPages[0].qMatrix.length; r++) {
+			for (var r = 0; r < qTable.rows.length; r++) {
 				table += '<tr>';
-				for (var c = 0; c < hc.qDataPages[0].qMatrix[r].length; c++) {
+				for (var c = 0; c < qTable.rows[r].cells.length; c++) {
 					table += '<td>';
-					table += hc.qDataPages[0].qMatrix[r][c].qText;
+					table += qTable.rows[r].cells[c].qText;
 					table += '</td>';
 				}
 				table += '</tr>';

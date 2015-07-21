@@ -4,7 +4,7 @@
     "extensionName": "exportdata-paint",
     "extensionNameSafe": "exportdata-paint",
     "extensionType": "extension",
-    "extensionNamespace": "qsSample-",
+    "extensionNamespace": "swr-",
     "extensionDescription": "Example how to export data.",
     "authorName": "Stefan Walther",
     "lessSupport": false,
