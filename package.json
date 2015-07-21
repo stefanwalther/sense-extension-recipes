@@ -1,6 +1,6 @@
 {
   "name": "sense-extension-recipes",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Recipes on working with Qlik Sense Visualization Extensions.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

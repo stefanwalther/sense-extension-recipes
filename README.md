@@ -57,7 +57,8 @@ So this is more or less my playground to test concepts, to test how the Visualiz
 * **[RequireJS CSS Plugin](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/requirejs-css)**
 
   - Use requireJS' CSS Plugin to load external CSS files.
-* **[TableAPI ExportData (paint)](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/tableapi-exportdata-paint)
+* **[TableAPI ExportData (paint)](https://github.com/stefanwalther/qsExtensionPlayground/tree/master/tableapi-exportdata-paint)**
+
   - Export data using the Table-API (Qlik Sense 2.1 or higher)
 
 Read the README.md located in every sample for more information.
