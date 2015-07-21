@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/stefanwalther/sense-extension-recipes",
   "devDependencies": {
+    "sense-go": "^0.1.1",
     "verb": "git://github.com/verbose/verb"
   }
 }

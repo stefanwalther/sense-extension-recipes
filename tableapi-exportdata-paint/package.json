@@ -1,0 +1,15 @@
+{
+  "name": "tableapi-exportdata-paint",
+  "version": "0.1.0",
+  "description": "Qlik Sense visualization extension recipe: Example how to export data.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Walther",
+  "license": "MIT",
+  "devDependencies": {
+    "sense-go": "^0.1.1",
+    "gulp": "git://github.com/gulpjs/gulp#4.0",
+    "js-yaml": "^3.3.1"
+  }
+}
