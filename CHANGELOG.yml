@@ -1,3 +1,7 @@
+v0.2.0:
+  date: "2015-07-21"
+  new:
+    - "Added example how to use exportData using the new Table-API in Qlik Sense 2.1"
 v0.1.x:
   date: "2015-07-17"
   enhancements:
