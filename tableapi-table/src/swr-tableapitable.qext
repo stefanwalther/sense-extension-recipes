@@ -1,9 +1,9 @@
 {
 	"name" : "TableAPI Table",
-	"description" : "Output a hyperCube using the TableAPI",
+	"description" : "@@pkg.description",
 	"icon" : "extension",
 	"type" : "visualization",
-	"version": "@@version",
+	"version": "@@pkg.version",
 	"preview" : "tableapitable.png",
-	"author": "Stefan Walther"
+	"author": "@@pkg.author"
 }
