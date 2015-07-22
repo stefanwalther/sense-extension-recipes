@@ -1,0 +1,7 @@
+/* Styles for TableAPI Table */
+
+/* Recommended pattern for styling your objects */
+.qv-object-swr-tableapitable .hello-world {
+  color:#333;
+  font-weight:bold;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tableapi-table",
+  "version": "0.2.0",
+  "homepage": "https://github.com/stefanwalther/sense-extension-recipes",
+  "authors": [
+    "Stefan Walther <swr@qlik.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "shared-styles": "~0.1.2"
+  }
+}

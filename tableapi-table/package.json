@@ -1,0 +1,19 @@
+{
+  "name": "tableapi-table",
+  "version": "0.1.0",
+  "description": "Output a hyperCube using the TableAPI",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp#4.0",
+    "sense-go": "^0.1.1",
+    "verb": "git://github.com/verbose/verb"
+  }
+}
