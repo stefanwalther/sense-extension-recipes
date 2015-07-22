@@ -1,6 +1,6 @@
 {
   "name": "sense-extension-recipes",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Recipes on working with Qlik Sense Visualization Extensions.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/stefanwalther/sense-extension-recipes",
   "devDependencies": {
+    "gulp": "file:C:\\Users\\swr\\AppData\\Local\\Temp\\npm-12916-3428b46a\\git-cache-b4f5585a709b\\aaed69d1fd73750227e803035b2a75d0f49e7de0",
     "sense-go": "^0.1.1",
     "verb": "git://github.com/verbose/verb"
   }
