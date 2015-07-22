@@ -7,5 +7,5 @@ var userConfig = {
 };
 
 senseGo.init( gulp, userConfig,  function (  ) {
-	console.log('sense-go initialized');
+
 });
