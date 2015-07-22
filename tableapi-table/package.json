@@ -1,6 +1,6 @@
 {
   "name": "tableapi-table",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Output a hyperCube using the TableAPI",
   "main": "gulpfile.js",
   "directories": {
