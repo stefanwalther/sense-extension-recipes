@@ -9,3 +9,5 @@ var userConfig = {
 senseGo.init( gulp, userConfig,  function (  ) {
 
 });
+
+module.exports = gulp;

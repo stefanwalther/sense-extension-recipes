@@ -1,4 +1,4 @@
-tableapi-exportdata-paint
+# tableapi-exportdata-paint
 
 > Qlik Sense visualization extension recipe: Example how to export data.
 
