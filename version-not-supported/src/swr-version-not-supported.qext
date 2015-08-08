@@ -1,0 +1,10 @@
+{
+	"name" : "version-not-supported",
+	"description" : "Example how to ensure that your extension doesn't fail in unsupported Qlik Sense versions.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@pkg.version",
+	"preview" : "version-not-supported.png",
+	"author": "@@pkg.author",
+	"supportedVersion": "2.1.0"
+}
