@@ -2,8 +2,7 @@
 define( [
 	'jquery',
 	'qvangular',
-	'text!./swr-simpletable.ng.html',
-	'text!./swr-simpletable.css'
+	'text!./swr-simple-table.ng.html'
 
 ], function ( $, qvangular, ngTemplate, cssContent ) {
 	'use strict';

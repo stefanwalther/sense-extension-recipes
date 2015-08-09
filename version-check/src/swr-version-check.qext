@@ -1,0 +1,9 @@
+{
+	"name" : "Version Check",
+	"description" : "Example how to ensure that your extension doesn't fail in unsupported Qlik Sense versions.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@pkg.version",
+	"preview" : "version-check.png",
+	"author": "@@pkg.author"
+}
