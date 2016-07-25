@@ -1,0 +1,24 @@
+{
+  "name": "property-array",
+  "version": "0.1.0",
+  "description": "How to use the array property.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io"
+  },
+  "keywords": [
+    "qlik",
+    "qlik-sense",
+    "visualization-extension",
+    "qlik-sense-visualization-extension",
+    "qliksense-visualization-extension",
+    "visualization",
+    "extension"
+  ],
+  "private": false,
+  "devDependencies": {
+  }
+}
