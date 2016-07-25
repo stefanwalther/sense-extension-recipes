@@ -1,0 +1,14 @@
+{
+	"name" : "multiple-hypercubes",
+	"description" : "@@pkg.description",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@pkg.version",
+	"preview" : "version-not-supported.png",
+	"author": "@@pkg.author.name",
+	"homepage": "",
+  "keywords": "qlik-sense, visualization-extension, extension, visualization",
+  "license": "mit",
+  "repository": "",
+  "dependencies" : { "qlik-sense" : ">1.0.x" }
+}

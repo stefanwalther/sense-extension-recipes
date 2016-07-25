@@ -1,0 +1,23 @@
+{
+  "name": "multiple-hypercubes",
+  "version": "0.1.1",
+  "description": "Sample how to use multiple hypercubes, both being reactive to a common dimension.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "keywords": [
+    "qlik",
+    "qliksense",
+    "qlik-sense",
+    "qlik sense visualization extension",
+    "qlik-sense-visualization-extension",
+    "qliksense-visualization-extension",
+    "visualization"
+  ],
+  "devDependencies": {
+    "sense-go": "^0.3.3",
+    "gulp": "git://github.com/gulpjs/gulp#4.0",
+    "verb": "verbose/verb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "export-classic",
+  "version": "0.1.0",
+  "description": "Showcase how to enable export in Qlik Sense 3.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io",
+    "email": ""
+  },
+  "license": "mit",
+  "keywords": [
+    "qlik",
+    "qlik-sense",
+    "visualization-extension",
+    "qlik-sense-visualization-extension",
+    "qliksense-visualization-extension",
+    "visualization",
+    "extension"
+  ],
+  "private": false,
+  "devDependencies": {}
+}

@@ -3,7 +3,7 @@
 	"description" : "Simple example how to use AngularJS (templates & directives) in Qlik Sense Visualization Extnesions.",
 	"icon" : "extension",
 	"type" : "visualization",
-	"version": "@@pkg.version",
+	"version": "@@version",
 	"preview" : "angularjs-basicexample.png",
 	"author": "Stefan Walther"
 }
