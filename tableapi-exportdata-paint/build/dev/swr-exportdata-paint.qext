@@ -1,0 +1,9 @@
+{
+	"name" : "exportData (paint)",
+	"description" : "Example how to export data.",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "@@version",
+	"preview" : "exportdata-paint.png",
+	"author": "Stefan Walther"
+}
