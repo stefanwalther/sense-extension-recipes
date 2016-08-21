@@ -1,0 +1,21 @@
+{
+  "name": "property-fields",
+  "version": "0.1.0",
+  "description": "Sample to show how to select from a list of fields in the property panel.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Walther <https://github.com/stefanwalther>",
+  "keywords": [
+    "qlik",
+    "qlik-sense",
+    "visualization-extension",
+    "qlik-sense-visualization-extension",
+    "qliksense-visualization-extension",
+    "visualization",
+    "extension"
+  ],
+  "private": false,
+  "devDependencies": {},
+  "license": "MIT"
+}
