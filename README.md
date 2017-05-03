@@ -1,5 +1,7 @@
 # Qlik Sense Extension Recipes
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/sense-extension-recipes.svg)](https://greenkeeper.io/)
+
 > Recipes on working with Qlik Sense Visualization Extensions.
 
 ![](http://serve.mod.bz/branch/)
