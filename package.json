@@ -23,7 +23,7 @@
   "homepage": "https://github.com/stefanwalther/sense-extension-recipes",
   "devDependencies": {
     "gulp": "file:C:\\Users\\swr\\AppData\\Local\\Temp\\npm-12916-3428b46a\\git-cache-b4f5585a709b\\aaed69d1fd73750227e803035b2a75d0f49e7de0",
-    "sense-go": "^0.1.1",
+    "sense-go": "^0.12.2",
     "verb": "git://github.com/verbose/verb"
   }
 }
